@@ -149,34 +149,7 @@ html {
     font-size: 62.5%;
 }
 
-.button {
-    font: bold 1.2em Arial;
-    text-decoration: none;
-    background-color: #EEEEEE;
-    color: #333333;
-    padding: 5px 10px 5px 10px;
-    width: 20%;
-    text-align: center;
-    border-top: 1px solid #CCCCCC;
-    border-right: 1px solid #333333;
-    border-bottom: 1px solid #333333;
-    border-left: 1px solid #CCCCCC;
-    border-radius: 10px;
-  }
 
-img {
-      padding-top: 25px;
-      padding-bottom: 25px;
-  }
-
-  
-
-  .top-content, nav {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      /* justify-content: center; */
-  }
 
   /* This is Coloring the boxes per instructions */
 
@@ -290,4 +263,108 @@ img {
   }
   /* This is Coloring the boxes per instructions */
 
-  
+  /* This is my CSS */
+
+  .button {
+    font: bold 1.2em Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 5px 5px 5px 5px;
+    width: 20%;
+    text-align: center;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 10px;
+  }
+
+.button:hover {
+    color: darkslategray;
+    background-color: deepskyblue;
+}
+
+header {
+    width: 65%;
+    margin: auto;
+}
+
+img {
+      padding: 25px;
+  }
+
+.headerpic {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+  }
+
+.headerpic img {
+    margin: 30px;
+}
+
+  .middle-content {
+      text-align: center;
+  }
+
+  .top-content, nav {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-evenly;
+  }
+
+.boxes, .bottom-content {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+@media (max-width: 500px) {
+    .container, header nav, .text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button {
+        width: 50%;
+    }
+
+    .boxes, .top-content {
+        display: flex;
+        flex-direction: column;
+        align-item: center;
+        justify-content: center;
+    }
+
+
+.bottom-content {
+    display: flex;
+    margin: 0 2% 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    }
+    
+.bottom-content .text-container {
+    padding-right: 4%;
+    }
+    
+.bottom-content .text-container:last-child {
+    padding-right: 0;
+    }
+}
+
+@media (max-width: 800px) {
+
+}
