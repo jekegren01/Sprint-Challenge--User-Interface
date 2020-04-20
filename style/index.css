@@ -265,6 +265,10 @@ html {
 
   /* This is my CSS */
 
+  .about {
+      margin: 5vw;
+  }
+  
   .button {
     font: bold 1.2em Arial;
     text-decoration: none;
