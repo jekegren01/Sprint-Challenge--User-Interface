@@ -364,7 +364,7 @@ img {
     .boxes, .top-content {
         display: flex;
         flex-direction: column;
-        align-item: center;
+        align-items: center;
         justify-content: center;
     }
 
@@ -421,7 +421,7 @@ img {
     .boxes, .top-content {
         display: flex;
         flex-direction: column;
-        align-item: center;
+        align-items: center;
         justify-content: center;
     }
 
