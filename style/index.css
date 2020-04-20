@@ -268,7 +268,7 @@ html {
   .about {
       margin: 5vw;
   }
-  
+
   .button {
     font: bold 1.2em Arial;
     text-decoration: none;
@@ -335,8 +335,8 @@ img {
 
 
 @media (max-width: 800px) {
-    .container, header, .text-container {
-        width: 780px;
+    .container, header, .text-container, footer {
+        width: auto;
     }
 
     .headerpic img {
@@ -393,8 +393,8 @@ img {
 }
 
 @media (max-width: 500px) {
-    .container, header, .text-container {
-        width: 470px;
+    .container, header, .text-container, footer {
+        width: auto;
     }
 
     .headerpic img {
@@ -447,43 +447,43 @@ img {
     } 
     
     .middle-content .boxes .box1 {
-        width: 25%;
+        width: 10rem;
     }
 
     .middle-content .boxes .box2 {
-        width: 25%;
+        width: 10rem;
     }
 
     .middle-content .boxes .box3 {
-        width: 25%;
+        width: 10rem;
     }
 
     .middle-content .boxes .box4 {
-        width: 25%;
+        width: 10rem;
     }
 
     .middle-content .boxes .box5 {
-        width: 25%;
+        width: 10rem;
     }
 
     .middle-content .boxes .box6 {
-        width: 25%;
+        width: 10rem;
     }
 
     .middle-content .boxes .box7 {
-        width: 25%;
+        width: 10rem;
     }
 
     .middle-content .boxes .box8 {
-        width: 25%;
+        width: 10rem;
     }
 
     .middle-content .boxes .box9 {
-        width: 25%;
+        width: 10rem;
     }
 
     .middle-content .boxes .box10 {
-        width: 25%;
+        width: 10rem;
     }
 }
 
