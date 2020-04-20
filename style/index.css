@@ -391,11 +391,11 @@ img {
 
 @media (max-width: 500px) {
     .container, header, .text-container {
-        width: 480px;
+        width: 470px;
     }
 
     .headerpic img {
-        width: 90vw;
+        width: 50vh;
         height: 30vh;
     }
 
@@ -412,7 +412,7 @@ img {
         align-items: center;
     }
     .button {
-        width: 50%;
+        width: 30%;
     }
 
     .boxes, .top-content {
@@ -428,20 +428,56 @@ img {
     }
 
     
-.bottom-content {
-    display: flex;
-    margin: 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    .bottom-content {
+        display: flex;
+        margin: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
+ 
+    .text-container {
+        width: fit-content;
+    } 
     
-.bottom-content .text-container {
-    padding-right: 4%;
+    .middle-content .boxes .box1 {
+        width: 25%;
     }
-    
-.bottom-content .text-container:last-child {
-    padding-right: 0;
+
+    .middle-content .boxes .box2 {
+        width: 25%;
+    }
+
+    .middle-content .boxes .box3 {
+        width: 25%;
+    }
+
+    .middle-content .boxes .box4 {
+        width: 25%;
+    }
+
+    .middle-content .boxes .box5 {
+        width: 25%;
+    }
+
+    .middle-content .boxes .box6 {
+        width: 25%;
+    }
+
+    .middle-content .boxes .box7 {
+        width: 25%;
+    }
+
+    .middle-content .boxes .box8 {
+        width: 25%;
+    }
+
+    .middle-content .boxes .box9 {
+        width: 25%;
+    }
+
+    .middle-content .boxes .box10 {
+        width: 25%;
     }
 }
 
