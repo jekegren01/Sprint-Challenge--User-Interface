@@ -149,10 +149,8 @@ html {
     font-size: 62.5%;
 }
 
-
-
   /* This is Coloring the boxes per instructions */
-
+  
   .middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
@@ -261,6 +259,17 @@ html {
     align-items: center;
     justify-content: center;
   }
+  .middle-content .boxes div {
+    width: 12.5%;
+    height: 100px;
+    background: dodgerblue;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
   /* This is Coloring the boxes per instructions */
 
   /* This is my CSS */
